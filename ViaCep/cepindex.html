@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/cepcss.css" rel="stylesheet">
+<title>Consulta CEP</title>
+</head>
+
+  <body>
+<div class="container">
+<h2 id="idh2cep">Consulta CEP</h2>
+
+<form>
+
+<div class="frm-row">
+<label for="cep">CEP</label>
+<input type="text" name="cep" id="cep" maxlength="8" onkeypress="return SomenteNumero(event)">
+</div>
+
+<div class="frm-row">
+<label for="rua">Endereço</label>
+<input type="text" name="rua" id="rua">
+</div>
+
+<div class="frm-row">
+<label for="bairro">Bairro</label>
+<input type="text" name="bairro" id="bairro">
+</div>
+
+<div class="frm-row">
+<label for="cidade">Cidade</label>
+<input type="text" name="cidade" id="cidade">
+</div>
+
+<div class="frm-row">
+<label for="estado">Estado</label>
+<input type="text" name="estado" id="estado">
+</div>
+</form>
+</div>
+
+<script src="js/cepjs.js"></script>
+  </body>
+
+</html>
